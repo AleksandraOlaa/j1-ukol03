@@ -29,4 +29,5 @@ public class Procesor {
                     ", a ma rychlost " + rychlost;
         }
     }
+
 }
