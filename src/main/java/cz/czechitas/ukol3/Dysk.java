@@ -40,6 +40,6 @@ public class Dysk {
     }
      */
 
-    //public void vymazSouboryOVelikosti(long velikost);
+    // public void vymazSouboryOVelikosti(long velikost);
 
 }
