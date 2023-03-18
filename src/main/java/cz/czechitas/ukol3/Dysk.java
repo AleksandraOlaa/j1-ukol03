@@ -17,14 +17,6 @@ public class Dysk {
         this.vyuziteMisto = vyuziteMisto;
     }
 
-    public void getVyuziteMisto(long vyuziteMisto) {
-        this.vyuziteMisto = vyuziteMisto;
-    }
-
-    public void getKapacitaDysku(long kapacitaDysku) {
-        this.kapacitaDysku = kapacitaDysku;
-    }
-
     public void setPevnyDysk(String pevnyDysk) {
         this.pevnyDysk = pevnyDysk;
     }
@@ -34,11 +26,6 @@ public class Dysk {
                 ", ktery ma kapacitu " + kapacitaDysku +
                 ", z toho vyuzite misto je" + " " + vyuziteMisto;
     }
-
-    public void setVelikost(long velikost) {
-        this.velikost = velikost;
-    }
-
 
     public long vytvorSouborOVelikosti(long velikost) {
         if ((vyuziteMisto + velikost) < kapacitaDysku) {
