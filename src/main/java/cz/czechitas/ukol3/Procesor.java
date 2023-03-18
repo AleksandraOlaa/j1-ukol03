@@ -21,13 +21,10 @@ public class Procesor {
         this.cpu = cpu;
     }
 
-    public String getProcesor() {
-        toString();
-        {
+    public String toString() {
             return "Procesor" + " - " +
                     "vyrobce procesoru je " + vyrobce + ", obsahuje " + cpu +
                     ", a ma rychlost " + rychlost;
         }
-    }
 
 }
