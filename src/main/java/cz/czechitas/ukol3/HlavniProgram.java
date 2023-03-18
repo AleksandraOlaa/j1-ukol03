@@ -45,6 +45,7 @@ public class HlavniProgram {
        System.out.println(myDysk);
        myDysk.vymazSouboryOVelikosti(200_498_532_111L);
         }
+
     }
 
 
