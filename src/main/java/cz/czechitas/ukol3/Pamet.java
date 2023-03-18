@@ -14,12 +14,10 @@ public class Pamet {
         this.ram = ram;
     }
 
-    public String getPamet() {
-        toString();
-        {
-            return "Pamet " +
-                    "ma kapacitu " + kapacita + " a je to: " + ram;
-        }
+
+    public String toString() {
+        return "Pamet " +
+                "ma kapacitu " + kapacita + " a je to: " + ram;
     }
 
 }
